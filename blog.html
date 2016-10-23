@@ -9,7 +9,7 @@ title: Blog
       <h4 class="entry-title">
         <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
       </h4>
-      <p>Posted on <time class="published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_rfc822 }}</time></p>
+      <p>Posted on <time class="published" datetime="{{ post.date | date_to_rfc822 }}">{{ post.date | date_to_rfc822 }}</time></p>
     </article>
   {% endfor %}
 </div>
