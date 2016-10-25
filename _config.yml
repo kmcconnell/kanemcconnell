@@ -3,12 +3,12 @@
 
 # Site settings
 title: Kane 4.2
-description: We don't choose the way we're wired, but we can change our software.
+description: We didn't choose the way we're wired, but we can change our software.
 owner: Kane McConnell # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: writeme@kanemc.co
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://kanemc.co" # the base hostname & protocol for your site
+url: "https://kanemc.co" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/kanemcconnell
   github: https://github.com/kmcconnell
